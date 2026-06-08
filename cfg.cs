@@ -1,3 +1,8 @@
+//cfg
+// ___ ___ ___ 
+//|  _| . |  _|
+//|_| |_  |_|  
+//    |_|      
 namespace BSFv67_Sharp
 {
     public static class cfg
