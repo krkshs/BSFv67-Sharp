@@ -14,7 +14,7 @@ namespace BSFv67_Sharp
         {
             var listener = new TcpListener(IPAddress.Any, 9339);
             
-            // Set reuse address like Zig's reuse_address = true
+            //reuse_address = true
             listener.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
             
             try
