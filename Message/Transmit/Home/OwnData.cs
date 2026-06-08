@@ -39152,7 +39152,7 @@ namespace BSFv67_Sharp.Message.Transmit.Home
         w.vint(156252589);
         w.vint(0);
         w.vint(0);
-        w.str("FMZNkdv");
+        w.str(cfg.name); //name
         w.vint(1);
         w.str(null);
         w.vint(34);

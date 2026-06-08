@@ -12,7 +12,7 @@ namespace BSFv67_Sharp
     {
         public static async Task Main(string[] args)
         {
-            var listener = new TcpListener(IPAddress.Any, 9339);
+            var listener = new TcpListener(IPAddress.Parse(cfg.ip), cfg.port);
             
             //reuse_address = true
             listener.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
@@ -28,7 +28,7 @@ namespace BSFv67_Sharp
             }
 
             logger.banner();
-            logger.server_info($"Listening on {9339}");
+            logger.server_info($"Listening on {cfg.port}");
 
             while (true)
             {
