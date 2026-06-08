@@ -1,0 +1,8 @@
+# .NET / C# Build Artifacts
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+*.suo
+*.user
+.vs/
