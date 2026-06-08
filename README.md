@@ -2,7 +2,7 @@
 
 # BSFv67-Sharp
 
-This is a Brawl Stars Core server (version 67.264.1) rewritten in **C# (.NET 8.0)**. It is a fork of the original server written in Zig by **krksh**.
+This is a Brawl Stars Core server (version 67.264.1) (write krksh) rewritten in **C# (.NET 8.0)**. It is a fork of the original server written in Zig by **fmzkdv**.
 
 ## Features
 - Fully translated to C# with a minimalist, clean, lowercase code style.
